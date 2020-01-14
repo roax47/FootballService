@@ -1,0 +1,590 @@
+﻿body
+{
+    background-image:url(img4.jpg );
+       background-attachment: fixed;
+    background-position: center; 
+	
+    
+}
+#dokument 
+{
+    width: 100%;
+    height:auto;
+    margin:10px auto;
+   
+}
+
+#naglowek 
+{
+    width:auto;
+    height:100%;
+    position:relative;
+   
+
+}
+
+#kol_lewa
+{
+	
+    position:relative; 
+    float:left;
+    width:15%;
+    height:100%;
+     background: rgba(40, 38, 38, 0.88);
+   
+
+}
+#kol_lewa_animacja
+{
+    
+	
+    position:relative; 
+    float:left;
+    width:15%;
+    height:100%;
+     background: rgba(40, 38, 38, 0.88);
+   animation-name: kolorki;
+    animation-duration: 4s;
+   
+}
+      
+
+#logowanie {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+#content
+{
+    position: relative;
+    float:right;
+    width:100%;
+    height:auto;
+    background: rgba(80, 110, 251, 0.00);
+    overflow:hidden;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#kol_prawa
+{
+    position: relative;
+    float:right;
+    width:85%;
+    height:auto;
+    overflow:auto;
+
+    background: rgba(54, 25, 25, .5);
+
+     
+}
+
+#footer
+{
+color:white;
+text-align:center;
+font-size:25px;
+width:100%;
+  
+}
+#kolor
+{
+	display:none;
+}
+ #galeria 
+ {
+     height:auto;
+     padding: 50px;
+
+ }
+
+#galeria img:hover
+{
+    -webkit-transform: scale(4, 4);
+    -ms-transform: scale(4, 4);
+    transform: scale(4, 4);
+    transition-duration: 1.1s;
+    box-shadow: 2px 2px 2px grey;
+
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255,0.5);
+}
+nav a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+.ui-autocomplete {
+	width:50px;
+    background: white;
+    border-radius: 0px;
+	
+}
+#accordion .ui-accordion-header {
+  background-color:rgba(255, 255, 255,0.5) ;
+  margin: 0px;
+}
+#accordion .ui-accordion-content {
+  width: 100%;
+}
+#gra
+{
+	display:none;
+}
+
+
+menu.pod {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.menufont
+{
+ font-family:Impact;
+ font-size:18px;
+ color:navajowhite;
+
+}
+.menufont2
+{
+ font-family:Impact;
+ font-size:13px;
+ color:navajowhite;
+ text-align: center;
+
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: rgba(54, 25, 25, .1);
+
+}
+#lista {
+      list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: rgba(54, 25, 25, .1);
+
+}
+#menu2 {
+      list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: rgba(54, 25, 25, .1);
+
+}
+
+#lista:hover #menu1{
+    display:initial;
+}
+   
+#menu1{
+    display:none;    
+}
+
+menu.pod:hover {
+    background-color: #555;
+    color: white;
+}
+textarea {
+    width: 40%;
+    height: 320px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+a {
+	
+	font-family:Impact;
+    font-weight:bold;
+    font-style:italic;
+    color:blue;
+    font-size:20px;
+    text-align:center;
+	
+}
+h1 
+{
+  
+    text-transform:uppercase;
+    
+
+
+}
+.naglowek
+{
+    font-family:Impact;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:100px;
+    color:white;
+    text-align: center;
+    
+}
+.tytul
+{
+    font-family:Impact;
+    font-weight:bold;
+    font-size:60px;
+    font-stretch:expanded;
+    text-transform:uppercase;
+    color:white;
+    text-align: center;
+    
+
+ 
+}
+.copyright{
+    font-family:Impact;
+    font-size:20px;
+    font-style:italic;
+    text-transform:uppercase;
+    color:black;
+    text-align: center;
+}
+h2 
+{
+    font-family:Impact;
+    font-weight:bold;
+    font-style:normal;
+    color:rgba(11, 104, 194, 0.84);
+    font-size:40px;
+    text-transform:capitalize;
+    text-align:left;
+}
+h3 {
+    font-family:Impact;
+    font-weight:bold;
+    font-size:30px;
+    font-stretch:expanded;
+    text-transform:uppercase;
+    color:white;
+    text-align: center;
+    
+}
+label {
+    font-family:Impact;
+    font-weight:bold;
+    font-size:20px;
+    font-stretch:expanded;
+    text-transform:uppercase;
+    color:white;
+    text-align: center;
+    
+}
+form
+{
+	padding-left:20px;
+	
+}
+.mail {
+
+     font-family:Impact;
+ font-size:25px;
+ font-style:italic;
+ color:white;
+}
+input[type=submit],[type=reset] {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+h6 
+{
+    color:darkgray;
+    font-family:Impact;
+    font-size:45px;
+    text-align:center;
+    line-height:0px;
+    margin-bottom:20px;
+    margin-top:20px;
+    text-decoration-line:underline;
+    text-decoration:line-through;
+}
+
+
+.center
+{
+    text-align: center;
+}
+
+p 
+{
+    margin-left:10px;
+    margin-right:10px;
+    font-family:Impact;
+    font-size:30px;
+    color:white;
+    text-align:justify;
+}
+
+
+
+table.kluby {
+	
+    border-collapse: collapse;
+ 
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr.row1 {
+background-color: #f2f2f2;
+}
+tr.row2 {
+background-color: grey;
+}
+
+
+#grafika
+{
+    
+    float:left;
+transform: scale(0.7,0.7);
+ animation-name: odbicia;
+    animation-duration: 5s;
+
+
+
+}
+caption {
+
+     font-family:Impact;
+    font-weight:bold;
+    font-size:25px;
+    color:white;
+    text-align: center;
+    
+}
+@keyframes kolorki {
+    0%   {background-color: red;}
+    10%  {background-color: blue;}
+    20%  {background-color: yellow;}
+     30%   {background-color: red;}
+    40%  {background-color: yellow;}
+     50%   {background-color: red;}
+    60%  {background-color: yellow;}
+    70%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+@keyframes odbicia 
+{
+   20%, 50%, 80% {
+   
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+	
+  }
+
+  40% {
+   
+    -webkit-transform: translate3d(0, -90px, 0);
+    transform: translate3d(0, -90px, 0);
+  }
+
+  70% {
+   
+    -webkit-transform: translate3d(0, -60px, 0);
+    transform: translate3d(0, -60px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0,-20px,0);
+    transform: translate3d(0,-20px,0);
+  }
+}
+/*********JquertyGRA**********/
+#card
+{
+   margin: 20px 0px 0px 0px;
+   width: 625px;
+}
+#card div
+{
+   float: left;
+   width: 105px;
+   height: 105px;
+   background: #5cacee;
+   margin: 5px;
+   border: 1px solid #999;
+   cursor: pointer;
+   -webkit-border-radius: .5em;
+  
+}
+
+/***********************************ResponsiveCSS****************************************************/
+
+@media (max-width: 1000px) {
+#kol_lewa
+{
+	
+    position:relative; 
+    
+    width:100%;
+    height:100%;
+    
+   
+
+}
+#kol_lewa_animacja
+{
+    
+	  position:relative; 
+   
+    width:100%;
+    height:100%;
+
+   
+}
+      
+
+
+
+#content
+{
+    position: relative;
+    float:right;
+    width:100%;
+    height:auto;
+ 
+}
+
+#kol_prawa
+{
+    position: relative;
+    
+    width:100%;
+    height:auto;
+    overflow:auto;
+
+   
+
+     
+}
+#footer
+{
+
+width:100%;
+  
+}
+
+
+#galeria img:hover
+{
+    -webkit-transform: scale(2, 2);
+    -ms-transform: scale(2, 2);
+    transform: scale(2, 2);
+    transition-duration: 1.1s;
+    box-shadow: 2px 2px 2px grey;
+
+}
+
+.menufont
+{
+
+ font-size:20px;
+
+}
+.menufont2
+{
+ 
+ font-size:15px;
+
+
+}
+
+
+#lista:hover #menu1{
+    display:initial;
+}
+   
+#menu1{
+    display:initial;    
+}
+
+
+p 
+{
+    
+    font-size:15px;
+ 
+}
+h6 
+{
+   
+    font-size:20px;
+
+    
+}
+.copyright{
+   
+    font-size:10px;
+  
+}
+
+h2 
+{
+ 
+    font-size:40px;
+   
+}
+.naglowek
+{
+    
+    font-size:55px;
+ 
+
+}
+#grafika
+{
+    width:100%;
+ 
+
+
+}
+textarea {
+    width: 90%;
+}
+#card
+{
+   margin:0px 0px 0px 0px;
+   width:50%;	
+}
+#card div
+{
+width:100%;	
+}
+.tytul {
+	font-size:55px;
+}
+}
